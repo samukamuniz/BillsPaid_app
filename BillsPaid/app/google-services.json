@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "611273864306",
+    "firebase_url": "https://billspaid-a795b.firebaseio.com",
+    "project_id": "billspaid-a795b",
+    "storage_bucket": "billspaid-a795b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611273864306:android:bab64505c20735bc",
+        "android_client_info": {
+          "package_name": "com.samuniz.billspaid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611273864306-8f77nljpgn0u9lnt7akvn7bb6u2rsmag.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.samuniz.billspaid",
+            "certificate_hash": "152ecc5e33da1f9d4beaa2b26cba7b55aff0c432"
+          }
+        },
+        {
+          "client_id": "611273864306-4d7n2rbavbea1kli1knk3ja5b3avsmm1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpnRpm6Ehg_ZQXkr9YDaJkRRomTGhyRpg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611273864306-4d7n2rbavbea1kli1knk3ja5b3avsmm1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
