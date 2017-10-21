@@ -11,25 +11,25 @@
         android:layout_width="219dp"
         android:layout_height="68dp"
         android:layout_marginBottom="18dp"
-        app:layout_constraintBottom_toTopOf="@+id/fieldEmail"
-        app:srcCompat="@drawable/BillsPaid_Small"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/campoEmail"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="8dp"
-        tools:ignore="ContentDescription"
         app:layout_constraintVertical_bias="1.0"
-        app:layout_constraintHorizontal_bias="0.501" />
+        app:srcCompat="@drawable/billspaid"
+        tools:ignore="ContentDescription" />
 
     <EditText
-        android:id="@+id/fieldEmail"
+        android:id="@+id/campoEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="0dp"
         android:ems="10"
         android:hint="E-mail"
         android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toTopOf="@+id/fieldPassword"
+        app:layout_constraintBottom_toTopOf="@+id/campoSenha"
         android:layout_marginLeft="0dp"
         app:layout_constraintLeft_toLeftOf="@+id/imageView"
         android:layout_marginRight="0dp"
@@ -37,16 +37,16 @@
         app:layout_constraintHorizontal_bias="0.514" />
 
     <EditText
-        android:id="@+id/fieldPassword"
+        android:id="@+id/campoSenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
         android:layout_marginRight="0dp"
-        app:layout_constraintRight_toRightOf="@+id/fieldEmail"
+        app:layout_constraintRight_toRightOf="@+id/campoEmail"
         android:layout_marginLeft="0dp"
-        app:layout_constraintLeft_toLeftOf="@+id/fieldEmail"
+        app:layout_constraintLeft_toLeftOf="@+id/campoEmail"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -60,27 +60,29 @@
         android:layout_marginLeft="0dp"
         android:layout_marginRight="0dp"
         android:layout_marginTop="0dp"
+        android:onClick="login"
         android:text="ENTRAR"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="@+id/fieldPassword"
-        app:layout_constraintRight_toRightOf="@+id/fieldPassword"
-        app:layout_constraintTop_toBottomOf="@+id/fieldPassword" />
+        app:layout_constraintLeft_toLeftOf="@+id/campoSenha"
+        app:layout_constraintRight_toRightOf="@+id/campoSenha"
+        app:layout_constraintTop_toBottomOf="@+id/campoSenha" />
 
     <Button
         android:id="@+id/btnCadastrar"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:layout_marginLeft="0dp"
         android:layout_marginRight="0dp"
         android:layout_marginTop="0dp"
+        android:onClick="cadastro"
         android:text="CADASTRAR"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="@+id/btnEntrar"
         app:layout_constraintRight_toRightOf="@+id/btnEntrar"
         app:layout_constraintTop_toBottomOf="@+id/btnEntrar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="8dp"
         app:layout_constraintVertical_bias="0.047" />
 
     <android.support.constraint.Guideline
